@@ -181,7 +181,7 @@ button {
 }
 
 .items-block__rating-star {
-    background-image: url(./assets/svg/non-active-star.svg);
+    background-image: url('./assets/svg/non-active-star.svg');
     width: 24px;
     height: 24px;
     background-position: center;
@@ -189,7 +189,7 @@ button {
 }
 
 .items-block__rating-star--active {
-    background-image: url(./assets/svg/active-star.svg);
+    background-image: url('./assets/svg/active-star.svg');
 }
 
 .portfolio {
@@ -294,4 +294,8 @@ button {
         height: 1070px;
         flex-direction: column;
     }
+    .contacts__social-block {
+        width: 80%;
+    }
 }
+
