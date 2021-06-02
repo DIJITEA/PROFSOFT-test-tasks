@@ -25,11 +25,13 @@ button {
     margin: 0 auto;
     max-width: 944px;
 }
-.header{
+
+.header {
     position: fixed;
     max-width: 944px;
     width: 100%;
 }
+
 .header__container {
     height: 88px;
     border-bottom: 1px solid #828282;
@@ -82,8 +84,7 @@ button {
     transform: rotate(-90deg) translateY(+100%);
 }
 
-
-.switcher__button-label{
+.switcher__button-label {
     font-family: Gilroy-Bold;
     font-size: 16px;
     line-height: 20px;
@@ -93,12 +94,10 @@ button {
 .switcher__button {
     display: none;
 }
-.switcher input[type="radio"]:checked + label{
+
+.switcher input[type="radio"]:checked+label {
     color: #070707;
 }
-
-
-
 
 .switcher__delimiter {
     font-family: Gilroy-Bold;
@@ -135,9 +134,11 @@ button {
     line-height: 22px;
     text-align: center;
 }
-.skills{
+
+.skills {
     padding-top: 110px;
 }
+
 .skills__container {
     display: flex;
     flex-direction: column;
@@ -313,4 +314,3 @@ button {
         width: 80%;
     }
 }
-
