@@ -21,14 +21,22 @@ button {
 }
 
 .wrapper {
+    position: relative;
     margin: 0 auto;
     max-width: 944px;
+}
+
+.header {
+    position: fixed;
+    max-width: 944px;
+    width: 100%;
 }
 
 .header__container {
     height: 88px;
     border-bottom: 1px solid #828282;
     transform: matrix(1, 0, 0, 1, 0, 0);
+    background-color: rgba(255, 255, 255, 0.795);
 }
 
 .header__ul {
@@ -45,12 +53,12 @@ button {
     color: #828282;
 }
 
-.header__a_black {
+.header__a--active {
     color: #070707;
 }
 
 .home {
-    margin-bottom: 104px;
+    padding-top: 128px;
 }
 
 .home__info {
@@ -76,8 +84,7 @@ button {
     transform: rotate(-90deg) translateY(+100%);
 }
 
-
-.switcher__button-label{
+.switcher__button-label {
     font-family: Gilroy-Bold;
     font-size: 16px;
     line-height: 20px;
@@ -87,12 +94,10 @@ button {
 .switcher__button {
     display: none;
 }
-.switcher input[type="radio"]:checked + label{
+
+.switcher input[type="radio"]:checked+label {
     color: #070707;
 }
-
-
-
 
 .switcher__delimiter {
     font-family: Gilroy-Bold;
@@ -106,7 +111,7 @@ button {
 }
 
 .about-me {
-    margin-bottom: 91px;
+    padding-top: 110px;
 }
 
 .about-me__container {
@@ -130,6 +135,10 @@ button {
     text-align: center;
 }
 
+.skills {
+    padding-top: 110px;
+}
+
 .skills__container {
     display: flex;
     flex-direction: column;
@@ -137,7 +146,6 @@ button {
     justify-content: space-between;
     width: 100%;
     height: 408px;
-    margin-bottom: 110px;
 }
 
 .skills__header {
@@ -200,7 +208,7 @@ button {
 }
 
 .portfolio {
-    margin-bottom: 110px;
+    padding-top: 110px;
 }
 
 .portfolio__container {
@@ -239,6 +247,7 @@ button {
 }
 
 .contacts {
+    padding-top: 110px;
     margin-bottom: 123px;
 }
 
@@ -305,4 +314,3 @@ button {
         width: 80%;
     }
 }
-
