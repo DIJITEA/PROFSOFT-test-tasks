@@ -62,15 +62,12 @@ window.onload = () => {
         prev_active.el.classList.toggle("header__a--active");
         portfolio_a.el.classList.toggle("header__a--active");
         prev_active = portfolio_a;
-      } else if (
-        posY >= contacts_a.pos[0] &&
-        prev_active !== contacts_a
-      ) {
+      } else if (posY >= contacts_a.pos[0] &&
+        prev_active !== contacts_a) {
         prev_active.el.classList.toggle("header__a--active");
         contacts_a.el.classList.toggle("header__a--active");
         prev_active = contacts_a;
       }
     };
   }
-  console.log(document.querySelectorAll(".header__a"));
 };
