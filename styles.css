@@ -26,11 +26,13 @@ button {
     max-width: 944px;
 }
 
+
 .header {
     position: fixed;
     max-width: 944px;
     width: 100%;
 }
+
 
 .header__container {
     height: 88px;
@@ -52,6 +54,7 @@ button {
     line-height: 1.375rem;
     color: #828282;
 }
+
 
 .header__a--active {
     color: #070707;
@@ -84,7 +87,9 @@ button {
     transform: rotate(-90deg) translateY(+100%);
 }
 
-.switcher__button-label {
+
+
+.switcher__button-label{
     font-family: Gilroy-Bold;
     font-size: 16px;
     line-height: 20px;
@@ -94,6 +99,7 @@ button {
 .switcher__button {
     display: none;
 }
+
 
 .switcher input[type="radio"]:checked+label {
     color: #070707;
@@ -248,7 +254,6 @@ button {
 
 .contacts {
     padding-top: 110px;
-    margin-bottom: 123px;
 }
 
 .contacts__container {
@@ -313,4 +318,3 @@ button {
     .contacts__social-block {
         width: 80%;
     }
-}
