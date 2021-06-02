@@ -76,16 +76,23 @@ button {
     transform: rotate(-90deg) translateY(+100%);
 }
 
-.switcher__button {
+
+.switcher__button-label{
     font-family: Gilroy-Bold;
     font-size: 16px;
     line-height: 20px;
     color: #828282;
 }
 
-.switcher__button--active {
+.switcher__button {
+    display: none;
+}
+.switcher input[type="radio"]:checked + label{
     color: #070707;
 }
+
+
+
 
 .switcher__delimiter {
     font-family: Gilroy-Bold;

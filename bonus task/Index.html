@@ -19,16 +19,16 @@
               <a href="#!" class="header__a header__a_black">Home</a>
             </li>
             <li class="header__ul-li">
-              <a href="#!" class="header__a">About me</a>
+              <a href="#about-me" class="header__a">About me</a>
             </li>
             <li class="header__ul-li">
-              <a href="#!" class="header__a">Skills</a>
+              <a href="#skills" class="header__a">Skills</a>
             </li>
             <li class="header__ul-li">
-              <a href="#!" class="header__a">Portfolio</a>
+              <a href="#portfolio" class="header__a">Portfolio</a>
             </li>
             <li class="header__ul-li">
-              <a href="#!" class="header__a">Contacts</a>
+              <a href="#contacts" class="header__a">Contacts</a>
             </li>
           </ul>
         </div>
@@ -45,18 +45,20 @@
               <p class="about-short__p">24 years old, Minsk</p>
             </div>
             <div class="switcher">
-              <buton class="switcher__button">RU</buton>
-              <span class="switcher__delimiter">|</span>
-              <buton class="switcher__button switcher__button--active">
-                ENG
-              </buton>
-            </div>
+              <form class="switcher__form">
+               <input id="ru" class="switcher__button" type="radio" value="ru" name="lang"></input>
+               <label for="ru" class="switcher__button-label">RU</label>
+               <span class="switcher__delimiter">|</span>
+               <input id="eng" class="switcher__button" type="radio" value="eng" name="lang" checked></input>
+               <label for="eng" class="switcher__button-label" type="radio">ENG</label>
+              </form>
+           </div>
           </div>
           <img class="home__img" src="./assets/Imgs/BSPP2266.png" alt="photo" />
           <img class="home__mobile-img" src="./assets/Imgs/BSPP2266-mb.png" alt="photo" />
         </div>
       </article>
-      <article class="about-me">
+      <article class="about-me" id="about-me">
         <div class="about-me__container">
           <h2 class="about-me__header">About me</h2>
           <div class="about-me__p-block">
@@ -73,7 +75,7 @@
           </div>
         </div>
       </article>
-      <article class="skills">
+      <article class="skills" id="skills">
         <div class="skills__container">
           <h2 class="skills__header">Skills</h2>
           <p class="skills__p">I work in such programs as</p>
@@ -136,7 +138,7 @@
           </div>
         </div>
       </article>
-      <article class="portfolio">
+      <article class="portfolio" id="portfolio">
         <div class="portfolio__container">
           <h2 class="portfolio__h2">Portfolio</h2>
           <div class="portfolio__content-block">
@@ -153,7 +155,7 @@
           </div>
         </div>
       </article>
-      <footer class="contacts">
+      <footer class="contacts" id="contacts">
         <div class="contacts__container">
           <h2 class="contacts__h2">Contacts</h2>
           <div class="contacts__p-wrapper">
